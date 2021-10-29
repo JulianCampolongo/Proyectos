@@ -1,0 +1,110 @@
+
+ body {
+     
+        background: url(img/barber3.jpg) no-repeat center center ;
+        background-size: cover;
+        height: 100%;
+        
+        }
+    
+
+
+form {
+    width: 30%;
+    margin: auto;
+    background:rgb(246, 245, 250);
+    padding: 2% 3%;
+    box-sizing: border-box;
+    margin-top: 37px;
+    border-radius: 37px;
+    top: 50%;
+    animation-name:miAnimacion;
+    animation-duration: 3s; 
+    transform: translate(80%, 2%);
+    
+    background-image: url(img/pelu10.jpg);
+    
+    
+   
+    position: relative;
+}
+
+@keyframes miAnimacion {
+    0% { left: -300px; top: 0px;}
+
+    25% {  left: 0px; top: 50%;}
+  
+   
+    
+}
+
+h2 {
+    color: rgb(100, 99, 99);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+
+}
+
+#formButton {
+    background: #ca2e2e;
+    color: rgb(247, 239, 239);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+#formButton:hover {
+    cursor: pointer;
+    
+}
+
+label {
+    font-size: 18px;
+}
+
+.header {
+	width: 100%;
+	background: #ca2e2e;
+
+}
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: ;
+}
+
+.menu li {
+	border-left: 1px solid rgb(172, 112, 112);
+}
+
+.menu li:hover {
+	background: rgba(189, 16, 16, 0.6);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	color: rgb(235, 213, 213);
+	text-decoration: none;
+}
+h1{
+    
+    font-size: xx-large;
+    transform: translate(14%, -1100%);
+    color: white;
+}
